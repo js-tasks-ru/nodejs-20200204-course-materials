@@ -1,6 +1,7 @@
 {
-  "name": "course-materials",
+  "name": "002-middleware",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,5 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "koa": "^2.11.0"
+  }
 }
