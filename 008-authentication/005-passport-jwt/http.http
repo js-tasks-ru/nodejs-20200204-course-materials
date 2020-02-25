@@ -1,0 +1,14 @@
+GET http://localhost:3000/api/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZGVmZmJkNjRlYjkwNTA1Mjk5ZTA4NjkiLCJpYXQiOjE1ODI2NjEzMzksImV4cCI6MTU4MjY2MTYzOX0.ls3jbnbcYznGGbTiALmfhs-6l5UQXAT_O2usUBqTLQo
+
+###
+
+POST http://localhost:3000/api/refresh
+Content-Type: application/json
+
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZGVmZmJkNjRlYjkwNTA1Mjk5ZTA4NjkiLCJpYXQiOjE1ODI2NjEzMzksImV4cCI6MTU4MjY2MTYzOX0.ls3jbnbcYznGGbTiALmfhs-6l5UQXAT_O2usUBqTLQo",
+  "refreshToken": "cc12cb7e-eba4-43fb-b097-d049c3c8adcd"
+}
+
+###
